@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="home">
+
+<!-- The navigation menu -->
+<div class="navbar">
+    <a href="home">Home</a>
+    <div class="subnav">
+        <button class="subnavbtn"> Chat <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a class="no-action" href="message">Send Message</a>
+            <a class="no-action" href="chats">Show all chats</a>
+        </div>
+    </div>
+    <div class="subnav">
+        <button class="subnavbtn">Courses <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a class="no-action" href="#bring">Create Course</a>
+            <a class="no-action" href="course/all">View All Courses</a>
+            <a class="no-action" href="course/my">View My Courses</a>
+        </div>
+    </div>
+    <div class="subnav">
+        <button class="subnavbtn">Schedule <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a class="no-action" href="#link1">Show Schedule</a>
+            <a class="no-action" href="#link2">Find Schedule</a>
+        </div>
+    </div>
+
+    <div class="subnav">
+        <button class="subnavbtn">Users <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a class="no-action" href="#link1">Find User</a>
+            <a class="no-action" href="#link2">Block User</a>
+        </div>
+    </div>
+
+    <div class="onRight">
+        <a href="logout">Logout</a>
+    </div>
+
+</div>
+
+<div>
+    <h2>Here will be our documentation</h2>
+</div>
+
+</div>
+</body>
+</html>

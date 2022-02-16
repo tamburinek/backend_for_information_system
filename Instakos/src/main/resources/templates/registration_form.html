@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="registration">
+    <form action="newUser" method="POST" id="nameForm">
+        <div class="container">
+            <div id="inputs">
+                <label>firstname
+                    <input type="text" name="firstname" placeholder="first name">
+                </label>
+                <label>lastname
+                    <input type="text" name="lastname" placeholder="last name">
+                </label>
+                <label>username
+                    <input type="text" name="username" placeholder="username">
+                </label>
+                <label>email
+                    <input type="email" name="email" placeholder="email">
+                </label>
+                <label>age
+                    <input type="number" name="age" placeholder="age">
+                </label>
+                <label>bio
+                    <input type="text" name="bio" placeholder="your bio">
+                </label>
+                <label>gender
+                    <select name="gender">
+                        <option value="Unspecified">Unspecified</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </label>
+                <label>password
+                    <input type="password" name="password">
+                </label>
+                <button id="mainButton">REGISTER</button>
+                <a href="login"><button type="button">Already Registreted?</button></a>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Autoři: Arťom Ňorba, Phuong Dong Cu
+
+Téma projektu: Školní informační a komunikační systém pro studenty vysoké školy
+
+Popis projektu:
+        Projekt bude určen studentů a profesorům vysoké školy
+        Učitelé mohou vytvářet kurzy a přiřazovat / rezervovat si místnosti. Zároveň mohou studentovi hodinu / paralelku přiřadit, a to i při překročení původního limitu, pokud to místnost dovolí svojí kapacitou. (Databáze osob, předmětů a místností). Studenti si mohou prohlížet svůj rozvrh, vytvořit rozvrh, hlásit se do kurzů. Systém bude upozorňovat studenta, zda nedošlo k nějakému překrytí v rozvrhu a navrhne vhodnou úpravu. Student si dále bude moct prohlížet svoje studijní výsledky. Učitelé si mohou prohlížet svoje kurzy (nebo kurzy na které jsou pozváni) a vidí kompletní seznam účastníků svých kurzů. 
+        Dále bude systém sloužit přibližně jako sociální síť, kde si uživatelé mohou prohlížet profily jiných uživatelů, jenž sledují nebo mají veřejný profil. Uživatel si na profilu může napsat na jakých semestrálních prací pracoval a popřípadě s kým pracoval, kde ještě bude umožněno uživatelům, kteří pracovali na semestrální práci přidat feedback ohledně spolupráce s daným uživatelem. Uživatel si může na profilu vypsat svoje zkušenosti, to celkově poslouží uživatelům k snazšímu výběru parťáků na semestrální práce/projekty. Dále si uživatel může nastavit kontaktní údaje pro zájemce. Profil může být veřejný nebo skrytý a podle toho se budou uzavírat / otevírat informace.
+
+Cílem projektu je vytvoření jednotného místa, kde si každý student (zejména introvert) dokáže najít parťáka na práci a zároveň si bude moct pohodlně upravovat rozvrh. Pro profesory projekt přinese jednodušší komunikaci se studenty.  
+
+Doplňující informace:
+Podle časových možností je naplánovaný front end pro získání bodů navíc. Pro potřeby projektu byla vytvořena Wiki stránka na Gitlabu, která má pomoci projekt lépe vizualizovat a předat více informací pomocí různých grafů, či snímků. Zároveň Wiki stránka má ukázat průběžný vývoj projektu a momentální jeho stav.
+
+
+

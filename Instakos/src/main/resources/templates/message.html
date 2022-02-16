@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Send Message</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="message">
+
+    <form action="newUser" method="POST" id="nameForm">
+        <div class="container">
+            <div class="brand-logo"></div>
+            <div id="inputs">
+                <label>reciever(username)
+                    <input type="text" name="reciever" value="tamburinek">
+                </label>
+                <label>text<br><br>
+                    <textarea id="text" name="text" rows="4" cols="35"></textarea>
+                </label>
+                <button id="mainButton">SEND</button> <br>
+            </div>
+        </div>
+    </form>
+    <a href="home"><button class="home">HOME</button></a>
+</div>
+</body>
+</html>

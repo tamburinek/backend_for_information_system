@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#mainButton {
+    background-color: #ea9d8d;
+    padding: 15px 32px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: none;
+    font-family: "Agency FB";
+    font-weight: bold;
+    transition-duration: 0.4s;
+    margin: auto;
+    position: relative;
+    margin-top: 15px;
+}
+
+#mainButton:hover {
+    background-color: White; /* Green */
+    color: #ea9d8d;
+}
+
+.body {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#topic{
+    text-align: center;
+    color: white;
+    font-family: "Agency FB";
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.configForm {
+    text-align: center;
+}
+
+#inputs {
+    margin: auto;
+    display: inline-block;
+}
+
+input {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-family: "Agency FB";
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+select {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-family: "Agency FB";
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+label {
+    font-size: 18px;
+    font-family: "Agency FB";
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    text-align: right;
+}
+
+div label {
+    display: block;
+}
+

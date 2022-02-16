@@ -1,0 +1,19 @@
+package cz.cvut.fel.ear.instakos.model.enums;
+
+public enum Permission {
+
+    SEND_MESSAGE,
+    CREATE_COURSE,
+    CREATE_SCHEDULE,
+    JOIN_COURSE,
+    SEND_HOMEWORK,
+    MAKE_RESERVATION,
+    READ_COMMENT,
+    WRITE_COMMENT,
+    DELETE_POST,
+    DELETE_FEEDBACK,
+    SEND_UNBAN_REQUEST,
+    UNBAN_USER,
+    VIEW_TEACHERS_SCHEDULE,
+    BLOCK_ACCOUNTS;
+}

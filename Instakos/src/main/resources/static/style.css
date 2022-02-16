@@ -1,0 +1,381 @@
+#mainHeader {
+    left: 0;
+    line-height: 200px;
+    margin-top: -200px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: white;
+    font-family: "Agency FB";
+    font-weight: bold;
+    font-size: 3em;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ecf0f3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    font-family: poppins;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#index #buttonLogin {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+#index #loginButtonOnError {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+#index #buttonRegister {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+#index .bn29 {
+    border: none;
+    padding: 0.8em 2.5em;
+    outline: none;
+    color: white;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    background: none;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+    font-family: "Agency FB";
+    font-weight: bold;
+    width: 150px;
+}
+
+#index .bn29:before,
+#index .bn29:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10em;
+    transform: translateX(-50%) translateY(-50%);
+    width: 105%;
+    height: 105%;
+    content: "";
+    z-index: -2;
+    background-size: 400% 400%;
+    background: linear-gradient(
+            60deg,
+            #ef4e7b,
+            #a166ab,
+            #5073b8,
+            #1098ad
+    );
+}
+
+#index .bn29:before {
+    filter: blur(7px);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-animation: pulse 10s infinite ease;
+    animation: pulse 10s infinite ease;
+}
+
+#index .bn29:after {
+    -webkit-filter: blur(0.3px);
+    filter: blur(0.3px);
+}
+
+
+#index .bn29:hover:before {
+    width: 115%;
+    height: 115%;
+}
+
+#index button:hover {
+    box-shadow: none;
+}
+
+/* login page */
+
+
+#login .container {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+#login .brand-title {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #1DA1F2;
+    letter-spacing: 1px;
+}
+
+#login .inputs {
+    text-align: left;
+    margin-top: 30px;
+}
+
+#login label,
+#login input,
+#login button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#login label {
+    margin-bottom: 4px;
+}
+
+#login label:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+#login input::placeholder {
+    color: gray;
+}
+
+#login input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+#login button {
+    margin-top: 20px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+}
+
+#login button:hover {
+    box-shadow: none;
+}
+
+
+#login h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#login a {
+    text-decoration: none;
+}
+
+/* registration  */
+
+
+#registration .container {
+    position: relative;
+    width: 350px;
+    height: 755px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 18px 18px 20px #cbced1, -14px -14px 20px white;
+}
+
+#registration .inputs {
+    text-align: left;
+    margin-top: 15px;
+}
+
+#registration label,
+#registration input,
+#registration button,
+#registration select {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#registration select{
+    height: 25px;
+}
+
+#registration label {
+    margin-bottom: 4px;
+}
+
+#registration label:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+#registration input::placeholder {
+    color: gray;
+}
+
+#registration input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+#registration button {
+    margin-top: 20px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+}
+
+#registration button:hover {
+    box-shadow: none;
+}
+
+
+#registration h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#registration a {
+    text-decoration: none;
+}
+
+/* home page */
+
+/* The navigation menu */
+#home .navbar {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#home .onRight{
+    float: right !important;
+}
+
+/* Navigation links */
+#home .navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The subnavigation menu */
+#home .subnav {
+    float: left;
+    overflow: hidden;
+}
+
+/* Subnav button */
+#home .subnav .subnavbtn {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+#home .navbar a:hover,
+#home .subnav:hover .subnavbtn {
+    color:black;
+    background-color: white;
+    border-radius: 30px;
+}
+
+/* Style the subnav content - positioned absolute */
+#home .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#home .no-action:hover{
+    background-color: rgba(255, 0, 0, 0) !important;
+}
+
+/* Style the subnav links */
+#home .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+/* Add a grey background color on hover */
+#home .subnav-content a:hover {
+    color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+#home .subnav:hover .subnav-content {
+    display: block;
+}
+
+#home h2 {
+    margin-top: 60px;
+}
